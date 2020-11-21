@@ -15,10 +15,11 @@ author: Akshay Ravi
 
 navbar-links:
   About Me: "aboutme"
-  Resources:
+  Alternative links:
     - Mirror-h: "https://mirror-h.org/search/hacker/47162/"
     - Bug crowd: "https://bugcrowd.com/AKSHAYRAVIC09YC47"
-  Author's home: "https://deanattali.com"
+  Proof Of Concepts:
+    -Rce tool with python: "https://youtu.be/pLM8ss6v71Y"
 
 # --- Logo --- #
 
