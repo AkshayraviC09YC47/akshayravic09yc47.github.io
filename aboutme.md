@@ -6,7 +6,7 @@ subtitle: Beginner as a Developer & Hacker
 
 My name is Akshay Ravi. I have the following qualities:
 
-- Ex-Defacer At Kerala Cyber Dragons
+- Ex-Defacer(hacker) At Kerala Cyber Dragons
 - Newbie Python Developer & Hacker
 
 What else do you need?
