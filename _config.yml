@@ -14,7 +14,9 @@ author: Akshay Ravi
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "aboutme"
+  About Me: 
+    - About me: "aboutme"
+    - back to home: "https://akshayravic09yc47.github.io"
   Alternative links:
     - Mirror-h: "https://mirror-h.org/search/hacker/47162/"
     - Bug crowd: "https://bugcrowd.com/AKSHAYRAVIC09YC47"
