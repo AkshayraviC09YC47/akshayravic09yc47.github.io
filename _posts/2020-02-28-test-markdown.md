@@ -8,23 +8,23 @@ subtitle: Reflected XSS on search parameter
 comments: true
 ---
 
-recently i found a relected XSS on [https://www.maxmodapk.com](https://www.maxmodapk.com) search parameter ,and i and also checled for RCE and unfortunately i didnt find any RCE vulnerability and suddelny i reported that bug to maxmod domain admin
+Recently i found a relected XSS on [https://www.maxmodapk.com](https://www.maxmodapk.com) search parameter ,and i and also checled for RCE and unfortunately i didnt find any RCE vulnerability and suddelny i reported that bug to maxmod domain admin
 
 **Here is the screen shots**
 
 ## Here is a secondary heading
 
-Here's a useless table:
+#Here's a useless table:
 
-| Number | Next number | Previous number |
-| :------ |:--- | :--- |
-| Five | Six | Four |
-| Ten | Eleven | Nine |
-| Seven | Eight | Six |
-| Two | Three | One |
+#| Number | Next number | Previous number |
+#| :------ |:--- | :--- |
+#| Five | Six | Four |
+#| Ten | Eleven | Nine |
+#| Seven | Eight | Six |
+#| Two | Three | One |
 
 
-How about a yummy crepe?
+#How about a yummy crepe?
 
 ![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg)
 
