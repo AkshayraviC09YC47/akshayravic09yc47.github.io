@@ -2,7 +2,7 @@
 layout: post
 title: Cross site scripting
 subtitle: Reflected XSS on search parameter
-gh-repo: daattali/beautiful-jekyll
+#gh-repo: daattali/beautiful-jekyll
 #gh-badge: [star, fork, follow]
 #tags: [test]
 comments: true
@@ -10,7 +10,7 @@ comments: true
 
 recently i found a relected XSS on [https://www.maxmodapk.com](https://www.maxmodapk.com) search parameter ,and i and also checled for RCE and unfortunately i didnt find any RCE vulnerability and suddelny i reported that bug to maxmod domain admin
 
-**Here is some bold text**
+**Here is the screen shots**
 
 ## Here is a secondary heading
 
