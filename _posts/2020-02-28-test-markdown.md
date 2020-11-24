@@ -1,14 +1,14 @@
 ---
 layout: post
 title: Cross site scripting
-subtitle: Relected XSS on search parameter
+subtitle: Reflected XSS on search parameter
 gh-repo: daattali/beautiful-jekyll
-gh-badge: [star, fork, follow]
-tags: [test]
+#gh-badge: [star, fork, follow]
+#tags: [test]
 comments: true
 ---
 
-This is a demo post to show you how to write blog posts with markdown.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](https://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
+recently i found a relected XSS on [https://www.maxmodapk.com](https://www.maxmodapk.com) search parameter ,and i and also checled for RCE and unfortunately i didnt find any RCE vulnerability and suddelny i reported that bug to maxmod domain admin
 
 **Here is some bold text**
 
