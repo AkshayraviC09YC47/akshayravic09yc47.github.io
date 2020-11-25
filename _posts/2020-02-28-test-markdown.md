@@ -35,10 +35,10 @@ Recently i found a relected XSS on [https://www.maxmodapk.com](https://www.maxmo
 Here's the payload:
 
 ~~~
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
+
+<script>alert("xss by akshay");</script>
+
+
 ~~~
 
 And here is the same code with syntax highlighting:
@@ -65,14 +65,14 @@ You can add notification, warning and error boxes like this:
 ### Notification
 
 {: .box-note}
-**Note:** This is a notification box.
 
-### Warning
 
-{: .box-warning}
-**Warning:** This is a warning box.
 
-### Error
 
-{: .box-error}
-**Error:** This is an error box.
+
+
+
+
+
+
+
