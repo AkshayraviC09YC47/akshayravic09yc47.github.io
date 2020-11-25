@@ -41,7 +41,7 @@ Here's the payload:
 
 ~~~
 
-And here is the same code with syntax highlighting:
+
 
 ```
 
@@ -50,7 +50,7 @@ And here is the same code with syntax highlighting:
 
 ```
 
-And here is the same code yet again but with line numbers:
+
 
 {% highlight javascript linenos %}
 <script>alert(document.domain);</script>
