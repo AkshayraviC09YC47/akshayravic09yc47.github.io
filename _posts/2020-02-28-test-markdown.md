@@ -8,7 +8,7 @@ subtitle: Reflected XSS on search parameter
 comments: true
 ---
 
-Recently i found a relected XSS on [https://www.maxmodapk.com](https://www.maxmodapk.com) search parameter ,and i and also checled for RCE and unfortunately i didnt find any RCE vulnerability and suddelny i reported that bug to maxmod domain admin
+Recently i found a relected XSS on [https://www.maxmodapk.com](https://www.maxmodapk.com) search parameter ,and i and also checked for RCE and unfortunately i didnt find any RCE vulnerability and suddelny i reported that bug to maxmod domain admin
 
 **Here is the screen shots**
 
