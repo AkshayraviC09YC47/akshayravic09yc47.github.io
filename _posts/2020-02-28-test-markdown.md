@@ -12,27 +12,27 @@ Recently i found a relected XSS on [https://www.maxmodapk.com](https://www.maxmo
 
 **Here is the screen shots**
 
-## Here is a secondary heading
-
-#Here's a useless table:
-
-#| Number | Next number | Previous number |
-#| :------ |:--- | :--- |
-#| Five | Six | Four |
-#| Ten | Eleven | Nine |
-#| Seven | Eight | Six |
-#| Two | Three | One |
 
 
-#How about a yummy crepe?
+
+
+
+
+
+
+
+
+
+
+
 
 ![Crepe](https://i.ibb.co/fx35BWw/Screenshot-2020-11-24-23-49-02-92.jpg)
 
-It can also be centered!
+
 
 ![Crepe](https://i.ibb.co/kX6jmbv/Screenshot-2020-11-24-23-49-10-76.jpg){: .mx-auto.d-block :}
 
-Here's a code chunk:
+Here's the payload:
 
 ~~~
 var foo = function(x) {
