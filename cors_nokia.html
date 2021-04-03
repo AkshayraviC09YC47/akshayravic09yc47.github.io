@@ -9,7 +9,7 @@
 			        	document.getElementById("emo").innerHTML = alert(this.responseText);
 	        }
          };
-         xhttp.open("GET", "https://clarity.microsoft.com/api/v2", true);
+         xhttp.open("POST", "https://clarity.microsoft.com/api/v2", true);
          xhttp.withCredentials = true;
          xhttp.send();
          }
