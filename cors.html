@@ -10,7 +10,7 @@
 			        	document.getElementById("emo").innerHTML = alert(this.responseText);
 	        }
          };
-         xhttp.open("POST", "https://dialogflow.cloud.google.com/v1/integrations/messenger/webhook/8695d94d-3ce8-4325-9c7b-f37debc9c218/sessions/dfMessenger-78913962", true);
+         xhttp.open("POST", "https://dialogflow.cloud.google.com/v1/integrations/messenger/webhook/8695d94d-3ce8-4325-9c7b-f37debc9c218/sessions/dfMessenger-78913962",'{"queryInput":{"event":{"name":"WELCOME","languageCode":"en"}}}', true);
          xhttp.withCredentials = true;
          xhttp.send();
          }
